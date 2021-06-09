@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <TestChart/>
+<!--    <MapChart/>-->
   </div>
 </template>
+
+
+<script>
+  import TestChart from "@/components/charts/TestChart";
+  // import MapChart from "@/components/charts/MapChart";
+  export default {
+    components: {
+      TestChart,
+      // MapChart
+    }
+  }
+</script>
